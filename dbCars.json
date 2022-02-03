@@ -1,0 +1,29 @@
+{
+    "cars": [
+        {
+            "brand": "bmw",
+            "model": "M5",
+            "price": 51000
+        },
+        {
+            "brand": "volvo",
+            "model": "V90",
+            "price": 61000
+        },
+        {
+            "brand": "Волга",
+            "model": "3110",
+            "price": 1500
+        },
+        {
+            "brand": "ВАЗ",
+            "model": "2101",
+            "price": 500
+        },
+        {
+            "brand": "ЗАЗ",
+            "model": "968",
+            "price": 100
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Base</title>
+    <script src=./script.js defer></script>
+</head>
+
+<style>
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        padding: 0px;
+    }
+
+    select,
+    .car,
+    .price {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20pt;
+        margin: 20px;
+        padding: 2px;
+        width: auto;
+    }
+</style>
+
+<body>
+    <div class='wrap'>
+        <select id='select-car'>
+            <option value="def">Выбери тачку</option>
+        </select>
+        <div class='car'>
+            Выбери тачку
+        </div>
+        <div class='price'>
+        </div>
+    </div>
+</body>
+
+</html>
